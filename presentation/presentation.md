@@ -37,9 +37,6 @@ TODO maybe here should be something more introductory???
 TODO image of graalVM layers
 
 ---
-# 
-
----
 name: inverse
 layout: true
 class: center, middle, inverse
@@ -54,14 +51,26 @@ TODO do I want to talk about it?
 myabe just demo native java, show startup time and image size
 
 ???
-```git branch  ```
+```git branch  ???```
 
 possible question - anyone knows when it cannot be used?
 
 ---
 # Polyglot
 
-[](localhost:8080/)
+[](localhost:8080/svg)
+
+???
+
+
+Java + R
+JS + R
+Java + JS
+
+---
+# Embedable
+
+TODO debugging Java + R
 
 ---
 name: inverse
