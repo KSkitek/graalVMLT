@@ -10,20 +10,28 @@
     <packaging>jar</packaging>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+
+        <version.graal>1.0.0-rc2</version.graal>
+        <version.rserve>1.8.1</version.rserve>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>8.0</version>
-        </dependency>
 
         <dependency>
             <groupId>org.graalvm</groupId>
             <artifactId>graal-sdk</artifactId>
-            <version>0.33</version>
+            <version>${version.graal}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.rosuda.REngine</groupId>
+            <artifactId>Rserve</artifactId>
+            <version>${version.rserve}</version>
+        </dependency>
+
     </dependencies>
 
 </project>

@@ -1,0 +1,16 @@
+@startuml
+
+skinparam dpi 200
+
+node JVM {
+    component JavaApp
+}
+
+node R
+node Python
+
+JavaApp - R
+JavaApp - Python
+
+R -[hidden]- Python
+@enduml

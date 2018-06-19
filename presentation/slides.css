@@ -108,3 +108,7 @@ code {
     float: right;
     height: 92%;
 }
+
+img[alt=layers] { width: 550pt; }
+img[alt=javaRPythonInterop] { width: 250pt; }
+img[alt=javaRPythonInteropSmall] { width: 150pt; }
