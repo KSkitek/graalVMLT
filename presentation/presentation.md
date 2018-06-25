@@ -102,6 +102,14 @@ layout: false
 .footnote[[source](https://github.com/oracle/graal/blob/master/substratevm/LIMITATIONS.md)]
 
 ---
+
+![performance](performance.png)
+
+---
+
+![performance2](performance2.png)
+
+---
 name: inverse
 layout: true
 class: center, middle, inverse
@@ -123,10 +131,13 @@ https://medium.com/graalvm/debugging-polyglot-node-js-ruby-r-apps-with-graalvm-8
 # Questions?
 
 ---
-layout: false
+layout: fals§
 # Sources
 
-* 
 * https://medium.com/graalvm/debugging-polyglot-node-js-ruby-r-apps-with-graalvm-81b1bb2614db
 * http://chrisseaton.com/truffleruby/jokerconf17/
 * https://www.jfokus.se/jfokus17/preso/Graal-at-Twitter.pdf
+* http://www.labri.fr/perso/fmoranda/icooolps15/p1.pdf
+* https://github.com/chrisseaton/graalvm-ten-things
+* https://engineering.opsgenie.com/run-native-java-using-graalvm-in-aws-lambda-with-golang-ba86e27930bf
+* https://blog.plan99.net/graal-truffle-134d8f28fb69
