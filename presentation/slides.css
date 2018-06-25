@@ -109,6 +109,8 @@ code {
     height: 92%;
 }
 
-img[alt=layers] { width: 550pt; }
+img[alt=layers] { width: 570pt; }
 img[alt=javaRPythonInterop] { width: 250pt; }
 img[alt=javaRPythonInteropSmall] { width: 150pt; }
+img[alt=performance] { width: 570pt; }
+img[alt=performance2] { width: 570pt; }

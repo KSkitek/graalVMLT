@@ -14,7 +14,9 @@ public class RServeCalculator implements Calculator {
     }
 
     public static Calculator initialize() throws RserveException {
-        final RConnection conn = new RConnection("localhost", 6311);
+//        final String address = "localhost";
+        final String address = "46.101.212.137";
+        final RConnection conn = new RConnection(address, 6311);
         return new RServeCalculator(conn);
     }
 

@@ -1,0 +1,7 @@
+FROM scratch
+
+WORKDIR /srv
+
+COPY ./hello /srv/
+
+CMD ["/srv/hello"]

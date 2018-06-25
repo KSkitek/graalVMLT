@@ -1,0 +1,3 @@
+[submodule "src/main/examples"]
+	path = src/main/examples
+	url = https://github.com/graalvm/examples.git
